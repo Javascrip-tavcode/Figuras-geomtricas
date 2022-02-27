@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #FCFCFC;
+}
+
+/* header */
+
+.header{
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #D8DCE6;
+    padding: 9px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .container-user{
+    display: flex;
+    align-items: center;
+}
+
+.header .container-user img{
+    margin-right: 8px;
+}
+
+.header .container-user .container-body h3{
+    font-size: 1.6rem;
+    color: #423F3F;
+    margin-bottom: 2px;
+}
+
+.header .container-user .container-body p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #7C859B;
+}
+
+
+.header .container-course{
+    display: flex;
+    align-items: center;
+}
+
+.header .container-course p{
+    font-size: 1.6rem;
+    color: #423F3F;
+}
+
+.header .container-course img{
+    width: 36px;
+    height: 36px;
+    margin-left: 12px;
+}
+
+/* header */
+
+/* breadcrumb */
+
+.container-breadcrumb{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 24px;
+    border-bottom: 1px solid #D8DCE6;
+    background-color: #F9F9F9;
+}
+
+.container-breadcrumb .breadcrumb-title p{
+    font-size: 1.4rem;
+    color: #7C859B;
+}
+
+.container-breadcrumb .breadcrumb .breadcrumb-list{
+    display: flex;
+    align-items: center;
+}
+
+.container-breadcrumb .breadcrumb .breadcrumb-list li{
+    list-style: none;
+}
+
+.container-breadcrumb .breadcrumb .breadcrumb-list li a{
+    font-size: 1.4rem;
+    color: #41B883;
+    text-decoration: none;
+}
+
+.container-breadcrumb .breadcrumb .breadcrumb-list img{
+    margin: 0 8px;
+}
+
+/* breadcrumb */
+
+/* title */
+
+.container-description{
+    width: 50%;
+    max-width: 673px;
+    margin: 36px auto 24px;
+}
+
+.container-description .description-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.container-description .description-title img{
+    margin-right: 12px;
+}
+
+.container-description .description-title h2{
+    font-size: 2.4rem;
+    color: #003D22;
+}
+
+.container-description p{
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: #7C859B;
+    margin-bottom: 24px;
+}
+
+.container-description .description-card{
+    display: flex;
+}
+
+.container-description .description-card .card-detail{
+    display: flex;
+    margin-right: 36px;
+}
+
+.container-description .description-card .card-detail img{
+    margin-right: 12px;
+}
+
+.container-description .description-card .card-detail .card-body p{
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-weight: 300;
+    color: #7C859B;
+    margin-bottom: 2px;
+}
+
+.container-description .description-card .card-detail .card-body h3{
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+    color: #423F3F;
+}
+
+/* title */
+
+/* menu */
+
+.container-menu{
+    width: 50%;
+    max-width: 673px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 24px;
+    margin: 24px auto;
+    background-color: #fff;
+    border: 1px solid #D8DCE6;
+    border-radius: 4px;
+}
+
+.container-menu p{
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: #423F3F;
+}
+
+.container-menu .menu-options{
+    display: flex;
+}
+
+.container-menu .menu-options button{
+    display: flex;
+    align-items: center;
+    padding: 6px 16px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    background-color: #fff;
+    border: 1px solid #D8DCE6;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container-menu .menu-options button:first-child{
+    background-color: #41B883;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.container-menu .menu-options button:last-child{
+    margin-left: 16px;
+}
+
+.container-menu .menu-options button img{
+    margin-right: 4px;
+}
+
+/* menu */
+
+/* formulario */
+
+.container-form{
+    width: 50%;
+    max-width: 673px;
+    padding:24px;
+    margin: 24px auto;
+    background-color: #fff;
+    border: 1px solid #D8DCE6;
+    border-radius: 4px;
+}
+
+.container-form .form-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.container-form .form-title img{
+    margin-right: 12px;
+}
+
+.container-form .form-title .body-title h3{
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: #423F3F;
+    margin-bottom: 4px;
+}
+
+.container-form .form-title .body-title p{
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #423F3F;
+}
+
+.container-form #form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-form #form label{
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: #7C859B;
+    margin-bottom: 8px;
+}
+
+.container-form #form input{
+    border: 1px solid #D8DCE6;
+    border-radius: 4px;
+    padding: 16px;
+    background: transparent;
+    background-color: #F3F5F7;
+    margin-bottom: 12px;
+}
+
+.container-form #form .form-result{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.container-form #form .form-result .result-perimetro{
+    margin-right: 16px;
+}
+
+.container-form #form .form-result .result-perimetro, .container-form #form .form-result .result-area{
+    width: 304px;
+}
+
+.container-form #form .form-result .result-perimetro p, .container-form #form .form-result .result-area p{
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+    color: #423F3F;
+}
+
+
+.container-form #form .form-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.container-form #form .form-buttons button{
+    width: 304px;
+    margin-right: 16px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 0;
+    background-color: #41B883;
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.container-form #form .form-buttons button:last-child{
+    margin-right: 0;
+}
+
+.container-form #form .erase{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-form #form .erase button{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: #7C859B;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+/* formulario */
